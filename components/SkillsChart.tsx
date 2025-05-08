@@ -29,12 +29,11 @@ const languagesData = [
 ]
 
 const technicalSkills = [
-  { skill: "ISO 9001:2015", description: "Implementación y auditoría de sistemas de gestión de calidad" },
-  { skill: "ISO 14001:2015", description: "Gestión ambiental y sostenibilidad empresarial" },
-  { skill: "ISO 45001:2018", description: "Sistemas de gestión de seguridad y salud en el trabajo" },
-  { skill: "Lean Six Sigma", description: "Metodologías de mejora de procesos y reducción de variabilidad" },
-  { skill: "Gestión de Proyectos (PMI)", description: "Planificación, ejecución y control de proyectos complejos" },
-  { skill: "Auditoría Interna", description: "Evaluación de conformidad y eficacia de sistemas de gestión" }
+  { skill: "Gestion SGI", description: "ISO 9001, 14001, 45001, 27001, 50001" },
+  { skill: "Mejora Continua", description: "Lean Six Sigma (Green Belt), PMBOK, Agile Scrum" },
+  { skill: "Tecnologias", description: "Power Bi , Excel Avanzado, AutoCAD, Google Sheets, ReportLab" },
+  { skill: "Idiomas", description: "Español (nativo), Ingles (Intermedio Alto), Portugues (Intermedio)" },
+  { skill: "Otras", description: "Habilidades de comunicación,liderazgo de equipos, negociación, auditorías remotas" },
 ]
 
 const SkillsChart: React.FC = () => {
